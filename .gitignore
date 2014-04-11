@@ -1,3 +1,8 @@
 #Compiled binaries
-a.out
-a.exe
+nimf*
+
+#Compiliation object
+*.o
+
+#makefile
+makefile
