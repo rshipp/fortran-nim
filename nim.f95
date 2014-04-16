@@ -1,7 +1,7 @@
 !---------------------------------------------------------------------------
 !  Header section:
 !  TITLE: CSCI260 Final Project - Nim Game
-!  AUTHORS: Kevin Carbaugh, Ryan Shipp
+!  AUTHORS: Kevin Carbaugh, Ryan Shipp, Estevan Trujillo
 !  CLASS: CSCI260A
 !  DATE WRITTEN: 4/11/14
 !  LAST REVISION: 4/11/14
