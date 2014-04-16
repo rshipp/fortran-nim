@@ -19,5 +19,5 @@
 
 PROGRAM NIM
     INCLUDE "print_board.f95"
-    INCLUDE "dubm_player.f95"
+    INCLUDE "dumb_player.f95"
 END PROGRAM
