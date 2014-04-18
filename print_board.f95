@@ -22,7 +22,9 @@
 !---------------------------------------------------------------------------
 !PrintBoard subroutine
 
-CONTAINS
+MODULE PRINTBOARD
+    IMPLICIT NONE
+    CONTAINS
     SUBROUTINE PRINT_BOARD(board, board_dim)
 
         INTEGER,DIMENSION(board_dim),INTENT(IN):: board
@@ -40,3 +42,4 @@ CONTAINS
             WRITE(*,*) row
         END DO
     END SUBROUTINE
+END MODULE PRINTBOARD
