@@ -35,8 +35,10 @@ PROGRAM NIM
     WRITE(*,*) "3 - How to play"
     READ(*,*) menu_choice
 
-    CALL READ_BOARD(board, board_dim)
-    CALL PRINT_BOARD(board, board_dim)
+    IF(menu_choice /= 3) THEN
+        CALL READ_BOARD(board, board_dim)
+        CALL PRINT_BOARD(board, board_dim)
+    END IF
     SELECT CASE(menu_choice)
         CASE(1)
             !TODO
