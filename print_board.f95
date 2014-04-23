@@ -20,7 +20,6 @@
 !       x               INTEGER         loop counter
 !
 !---------------------------------------------------------------------------
-!PrintBoard subroutine
 
 MODULE PRINTBOARD
     IMPLICIT NONE
