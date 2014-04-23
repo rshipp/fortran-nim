@@ -70,7 +70,7 @@ FUNCTION game_won(board, length)
     DO i = 1, length
         IF (board(i) .NE. 0) THEN
             game_won = .FALSE.
-	END IF
+        END IF
     END DO
 
     RETURN
