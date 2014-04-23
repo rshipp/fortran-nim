@@ -50,7 +50,21 @@ PROGRAM NIM
     END SELECT
 
 
+CONTAINS
 
+FUNCTION game_won(board, length)
+    LOGICAL :: game_won
+    INTEGER :: length, i
+    INTEGER, DIMENSION(length) :: board
 
+    game_won = .TRUE.
+    DO i = 1, length
+        IF (board(i) .NE. 0) THEN
+            game_won = .FALSE.
+	END IF
+    END DO
+
+    RETURN
+END FUNCTION
 END PROGRAM
 
