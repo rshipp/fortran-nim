@@ -57,7 +57,7 @@ PROGRAM NIM
 
 
     DEALLOCATE(board, STAT = err)
-    IF(err /= 0) STOP "Error deallocating memory"
+    IF(err .NE. 0) STOP "Error deallocating memory"
 
 
 CONTAINS
