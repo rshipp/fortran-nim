@@ -43,6 +43,6 @@ MODULE READBOARD
                     WRITE(*,*) "How many items should be in row #", i,"?:"
                     READ(*,*) board(i)
                 END DO
-            END ELSE
+            END IF
         END SUBROUTINE
 END MODULE PRINTBOARD
