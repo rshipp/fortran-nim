@@ -25,14 +25,20 @@ INCLUDE "board_reader.f95"
 
 PROGRAM NIM
     USE PRINTBOARD
+    USE READBOARD
     IMPLICIT NONE
-    INTEGER:: menu_choice
+    INTEGER:: menu_choice, board_dim, err
+    INTEGER,DIMENSION(:),allocatable:: board
     10 WRITE(*,*) "Welcome to the game of nim. Please select an option:"
     WRITE(*,*) "1 - Play vs another human"
     WRITE(*,*) "2 - Play vs an AI"
     WRITE(*,*) "3 - How to play"
     READ(*,*) menu_choice
 
+    IF(menu_choice /= 3) THEN
+        CALL READ_BOARD(board, board_dim)
+        CALL PRINT_BOARD(board, board_dim)
+    END IF
     SELECT CASE(menu_choice)
         CASE(1)
             !TODO
@@ -50,8 +56,11 @@ PROGRAM NIM
     END SELECT
 
 
-CONTAINS
+    DEALLOCATE(board, STAT = err)
+    IF(err /= 0) STOP "Error deallocating memory"
 
+
+CONTAINS
 FUNCTION game_won(board, length)
     LOGICAL :: game_won
     INTEGER :: length, i
