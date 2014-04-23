@@ -20,6 +20,7 @@
 !Modules
 INCLUDE "print_board.f95"
 INCLUDE "dumb_player.f95"
+INCLUDE "human_player.f95"
 INCLUDE "board_reader.f95"
 
 PROGRAM NIM
