@@ -18,7 +18,7 @@ FUNCTION dumb_player_turn(board, length)
     ! Normalize one against the board length to get the row.
     ! Make sure the row has >0 sticks left.
     DO
-        row = 1 + (INT(x * length)
+        row = 1 + (INT(x * length))
 	IF (board(row) .NE. 0) EXIT
 	CALL RANDOM_NUMBER(x)
     END DO
