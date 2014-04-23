@@ -6,7 +6,7 @@ IMPLICIT NONE
 CONTAINS
 
 FUNCTION dumb_player_turn(board, length)
-    INTEGER :: length
+    INTEGER :: length, row, sticks
     REAL    :: x, y
     INTEGER, DIMENSION(length) :: board, dumb_player_turn
 
