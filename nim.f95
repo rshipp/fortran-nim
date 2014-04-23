@@ -20,16 +20,17 @@
 !Modules
 INCLUDE "print_board.f95"
 INCLUDE "dumb_player.f95"
+INCLUDE "board_reader.f95"
 
 PROGRAM NIM
     USE PRINTBOARD
     IMPLICIT NONE
     INTEGER:: menu_choice
-    WRITE(*,*) "Welcome to the game of nim. Please select an option:"
+    10 WRITE(*,*) "Welcome to the game of nim. Please select an option:"
     WRITE(*,*) "1 - Play vs another human"
     WRITE(*,*) "2 - Play vs an AI"
     WRITE(*,*) "3 - How to play"
-    10 READ(*,*) menu_choice
+    READ(*,*) menu_choice
 
     SELECT CASE(menu_choice)
         CASE(1)
