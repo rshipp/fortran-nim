@@ -15,8 +15,6 @@
 !  length               INTEGER         Length of the board.
 !  row                  INTEGER         The row in the board.
 !  sticks               INTEGER         The number of sticks.
-!  x                    REAL            Random number.
-!  y                    REAL            Random number.
 !  board                INTEGER ARRAY   The game board.
 !  human_player_turn    INTEGER ARRAY   Function.
 !---------------------------------------------------------------------------
@@ -27,7 +25,6 @@ CONTAINS
 
 FUNCTION human_player_turn(board, length)
     INTEGER :: length, row, sticks
-    REAL    :: x, y
     INTEGER, DIMENSION(length) :: board, human_player_turn
 
 
