@@ -11,7 +11,14 @@
 !  DATA DICTIONAY
 !--------------------------------------------------------------------------
 !  VARIABLES USED:
-!
+!       NAME:           TYPE:               DESCRIPTION:
+!       board_dim       INTEGER             How many rows are in the board
+!       board           INTEGER array       The representation of the board
+!       temp_board      INTEGER array       A temp array for buffering input
+!       choice          INTEGER             the user's selection on the menu
+!       i               INTEGER             loop counter
+!       err             INTEGER             used for IO error detection
+!       filename        CHARACTER array     the filename to read from for option 3
 !---------------------------------------------------------------------------
 
 MODULE READBOARD
