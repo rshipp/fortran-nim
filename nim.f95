@@ -4,7 +4,7 @@
 !  AUTHORS: Kevin Carbaugh, Ryan Shipp, Estevan Trujillo
 !  CLASS: CSCI260A
 !  DATE WRITTEN: 4/11/14
-!  LAST REVISION: 4/11/14
+!  LAST REVISION: 4/25/14
 !  DESCRIPTION: This program allows users to play the game 'Nim'
 !               either against an AI or another human
 !
@@ -12,9 +12,13 @@
 !--------------------------------------------------------------------------
 !  VARIABLES USED:
 !       NAME:           TYPE:           COMMENT:
-!
-!
-!
+!       menu_choice     INTEGER         The user's menu selection
+!       board_dim       INTEGER         the number of rows in the board
+!       err             INTEGER         used for return codes
+!       turn            INTEGER         A counter of the number of turns
+!       board           INTEGER array   the representation of the board
+!       game_won        LOGICAL         detects victory condition
+!       i               INTEGER         loop counter
 !---------------------------------------------------------------------------
 
 !Modules
