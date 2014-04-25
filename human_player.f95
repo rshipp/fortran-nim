@@ -18,6 +18,7 @@
 !  x                    REAL            Random number.
 !  y                    REAL            Random number.
 !  board                INTEGER ARRAY   The game board.
+!  human_player_turn    INTEGER ARRAY   Function.
 !---------------------------------------------------------------------------
 
 MODULE human_player
