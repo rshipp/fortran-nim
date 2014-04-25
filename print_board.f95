@@ -38,7 +38,7 @@ MODULE PRINTBOARD
             DO x=1,board(n)
                 row(x:x) = '|'
             END DO
-            WRITE(*,*) row
+            WRITE(*,*) n,"- ",row
         END DO
     END SUBROUTINE
 END MODULE PRINTBOARD
