@@ -3,6 +3,9 @@ nimf*
 
 #Compiliation object
 *.o
+*.mod
+*.out
+*.exe
 
 #makefile
 makefile
