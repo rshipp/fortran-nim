@@ -14,3 +14,8 @@ the same, so substitute your preferred compiler in the commands below.
 Running the game is as simple as
 
     ./nim
+    
+##Files
+
+For text files specifying game boards, the format is one integer per line to
+specify the number of items in a row, top to bottom
