@@ -2,6 +2,7 @@
 !  Header section:
 !  TITLE: CSCI260 Final Project - Nim Game
 !  AUTHORS: Kevin Carbaugh, Ryan Shipp, Estevan Trujillo
+!           kcarbaug@mines.edu, rshipp@mines.edu, etrujill@mines.edu
 !  CLASS: CSCI260A
 !  DATE WRITTEN: 4/11/14
 !  LAST REVISION: 4/18/14
