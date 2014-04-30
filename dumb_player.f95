@@ -1,16 +1,26 @@
+!---------------------------------------------------------------------------
+!  Header section:
+!  TITLE: CSCI260 Final Project - Nim Game
+!  AUTHORS: Kevin Carbaugh, Ryan Shipp, Estevan Trujillo
 !           kcarbaug@mines.edu, rshipp@mines.edu, etrujill@mines.edu
+!  CLASS: CSCI260A
+!  DATE WRITTEN: 4/11/14
+!  LAST REVISION: 4/25/14
+!  DESCRIPTION: This program allows users to play the game 'Nim'
+!               either against an AI or another human
+!
+!  DATA DICTIONAY
+!--------------------------------------------------------------------------
 !  VARIABLES USED:
-!    NAME:           TYPE:     COMMENT:
-!dumb_player		  MODULE	module for a dumb computer player
-!dumb_player_turn	  FUNCTION	function for running the computer turn
-!board			  INTEGER	representation of the board	
-!length			  INTEGER	number of rows in the board
-!row			  INTEGER	chooses which row of sticks to choose from
-!sticks			  INTEGER	chooses how many sticks to take
-!x			  REAL		random row for computer choice
-!y			  REAL		random number of sticks for computer choice
-!-------------------------------------------------------------------------------------
-
+!	dumb_player		  MODULE	module for a dumb computer player
+!	dumb_player_turn	  FUNCTION	function for running the computer turn
+!	board			  INTEGER	representation of the board	
+!	length			  INTEGER	number of rows in the board
+!	row			  INTEGER	chooses which row of sticks to choose from
+!	sticks			  INTEGER	chooses how many sticks to take
+!	x			  REAL		random row for computer choice
+!	y			  REAL		random number of sticks for computer choice
+!---------------------------------------------------------------------------
 
 ! Dumb computer player.
 ! Makes random, valid moves.
