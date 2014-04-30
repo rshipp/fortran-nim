@@ -1,3 +1,4 @@
+!           kcarbaug@mines.edu, rshipp@mines.edu, etrujill@mines.edu
 !  VARIABLES USED:
 !    NAME:           TYPE:     COMMENT:
 !dumb_player		  MODULE	module for a dumb computer player
